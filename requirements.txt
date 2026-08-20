@@ -1,0 +1,8 @@
+torch
+ollama
+llama-cpp-python
+pillow
+gitpython
+requests
+tk
+

@@ -1,0 +1,32 @@
+{
+  "dataset_path": "data/dataset.jsonl",
+  "output_dir": "output",
+  "max_input_length": 192,
+  "max_cleaned_length": 192,
+  "batch_size": 4,
+  "epochs": 12,
+  "learning_rate": 0.001,
+  "clean_loss_weight": 0.8,
+  "intent_loss_weight": 0.2,
+  "d_model": 96,
+  "gru_hidden_size": 96,
+  "gru_num_layers": 1,
+  "gru_bidirectional": false,
+  "num_layers": 2,
+  "num_heads": 4,
+  "dim_feedforward": 256,
+  "dropout": 0.05,
+  "length_threshold": 96,
+  "use_command_head": true,
+  "tokenizer_base_tokens": ["<pad>", "<unk>", "<bos>", "<eos>", " ", "\n", ".", ",", "-", "'", ":"],
+  "intents": [
+    "updatemodelrequirements",
+    "setstylerules",
+    "configurehybridpipeline",
+    "seterrortolerance",
+    "define_personality",
+    "cleanuprequest"
+  ]
+}
+
+
